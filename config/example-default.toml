@@ -1,0 +1,26 @@
+[addressinfoproviders]
+    # https://ipstack.com/
+    [addressinfoproviders.ipstack]
+    providerKey  = "ipstack"
+    apiKey = "TBD"
+    name = "IPStackAddressInfoProvider"
+    isDefault = true
+    
+    [addressinfoproviders.rdap]
+    providerKey  = "rdap"
+    name =  "RDAPAddressInfoProvider"
+    isDefault = true
+
+    # https://www.virustotal.com
+    [addressinfoproviders.virustotal]
+    providerKey ="virustotal"
+    apiKey= "TBD"
+    name="VirusTotalAddressInfoProvider"
+    isDefault = false
+    
+    #https://whoapi.com/
+    [addressinfoproviders.whoapi]
+    providerKey = "whoapi"
+    apiKey  =   "TBD"
+    name    =   "WhoApiAddressInfoProvider"
+    isDefault = false

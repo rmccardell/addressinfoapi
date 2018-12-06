@@ -1,0 +1,12 @@
+{
+  "defaultSeverity": "error",
+  "enable":true,
+  "run":"onType",
+  "extends": [
+    "tslint-config-swimlane",
+    "tslint-config-prettier"
+  ],
+  "jsRules": {},
+  "rules": {},
+  "rulesDirectory": []
+}
